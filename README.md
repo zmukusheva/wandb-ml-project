@@ -46,8 +46,7 @@ ROC-AUC: ~0.99
 
 ## 🔗 W&B Dashboard
 Все эксперименты можно посмотреть в W&B:
-
-(сюда вставишь ссылку позже)
+https://wandb.ai/zmukusheva-/classification-demo
 
 ---
 
