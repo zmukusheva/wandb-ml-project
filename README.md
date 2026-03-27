@@ -51,3 +51,9 @@ https://wandb.ai/zmukusheva-/classification-demo
 ---
 
 ## 📂 Структура проекта
+
+## 📌 Итог проекта
+
+Я построила модель бинарной классификации на встроенном датасете sklearn.  
+Сравнила Logistic Regression и Random Forest с помощью wandb.  
+По метрикам accuracy, f1 и roc_auc лучшей моделью оказалась Logistic Regression.
