@@ -51,11 +51,13 @@ ROC-AUC: ~0.99
 ---
 
 ## 📂 Структура проекта
+```
 wandb-ml-project/
 │
-├── wandb_project.ipynb
-├── README.md
-└── wandb/
+├── wandb_project.ipynb   # основной ноутбук с моделью
+├── README.md             # описание проекта
+└── wandb/                # логи (не загружаются в GitHub)
+```
 
 ## 📌 Итог проекта
 
