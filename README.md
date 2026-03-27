@@ -46,14 +46,22 @@ ROC-AUC: ~0.99
 
 ## 🔗 W&B Dashboard
 Все эксперименты можно посмотреть в W&B:
-https://wandb.ai/zmukusheva-/classification-demo
+[Открыть W&B Dashboard](https://wandb.ai/zmukusheva/classification-demo)
 
 ---
 
 ## 📂 Структура проекта
+wandb-ml-project/
+│
+├── wandb_project.ipynb # основной ноутбук с моделью
+├── README.md # описание проекта
+└── wandb/ # логи экспериментов (не загружаются в GitHub)
 
 ## 📌 Итог проекта
 
-Я построила модель бинарной классификации на встроенном датасете sklearn.  
-Сравнила Logistic Regression и Random Forest с помощью wandb.  
-По метрикам accuracy, f1 и roc_auc лучшей моделью оказалась Logistic Regression.
+В рамках проекта была построена модель бинарной классификации на встроенном датасете sklearn.
+Были протестированы модели Logistic Regression и Random Forest с использованием wandb для отслеживания экспериментов.
+По результатам оценки (accuracy, f1-score, roc_auc) лучшую производительность показала модель Logistic Regression.
+Использование W&B позволило удобно анализировать метрики и сравнивать результаты моделей.
+
+Подобный подход может использоваться для решения задач прогнозирования поведения пользователей или оценки рисков.
